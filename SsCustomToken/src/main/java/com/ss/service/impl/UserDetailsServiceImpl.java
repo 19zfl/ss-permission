@@ -16,6 +16,7 @@ import java.util.Objects;
 /**
  * @ClassName:UserDetailsServiceImpl
  * @Description:
+ *      实现UserDetailsService接口获取用户数据并返回给Authentication对象
  * @Author:zfl19
  * @CreateDate:2024/10/23 12:52
  */
