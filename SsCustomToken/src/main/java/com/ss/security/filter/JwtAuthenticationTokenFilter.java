@@ -41,6 +41,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         }
         String id;
         try {
+            // 解析token获取userId
             Claims claims = JwtUtil.parseToken(token);
             id = claims.getId();
         } catch (Exception e) {
