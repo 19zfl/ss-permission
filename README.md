@@ -1,5 +1,7 @@
 # ss-permission
 
+![image-20241029093842998](https://gitee.com/coder_zfl/markdown-image-cloud-drive/raw/master/markdown/202410290938110.png)
+
 SpringBoot整合SpringSecurity完成权限校验
 
 对于登录接口允许匿名访问
